@@ -101,8 +101,6 @@ void draw_drops(Drop *drops)
 
 int main()
 {
-  // stdio_init_all();
-
   // Start hub75 driver
   hub75.start(dma_complete);
   clear();

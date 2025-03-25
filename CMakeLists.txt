@@ -39,6 +39,7 @@ target_link_libraries(${NAME}
     pico_graphics
     pico_vector
     hardware_pwm
+    pico_rand
 )
 
 # create map/bin/hex file etc.

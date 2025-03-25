@@ -1,7 +1,11 @@
-# Interstate 75W RP2350 C++ Boilerplate
+# interstate75-projects
 
-A basic project for getting started with C++ on the RP2350-powered i75.
+Very WIP repo based off [i75-boilerplate](https://github.com/pimoroni/i75-boilerplate).
 
+- `src/main.cpp` / `rain.cpp`: A Matrix-type digital rain display
+- `conway.cpp`: A 'Game of Life' display
+
+Replace the content of `src/main.cpp` to build the UF2 file.
 ## Setting Up
 
 We've included a `cpp.sh` bash script that will help get you started on
